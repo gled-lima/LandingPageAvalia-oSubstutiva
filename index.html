@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim - Portfólio e Conteúdos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        img {
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #333;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Meu Site - Sobre Mim, Portfólio e Conteúdos</h1>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre Mim</a>
+    <a href="#conteudos">Conteúdos Aprendidos</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<main>
+    <!-- SOBRE MIM -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <div style="display: flex; align-items: center; gap: 20px;">
+            <img src="20240421_173550.jpg" alt="Minha Foto" width="180">
+            <p>Olá! Meu nome é Gledson Lima. Sou estudante da matéria de Tecnologias Web no INSTITUTO FEDERAL DE ALAGOAS e este site representa o acumulado em conhecimento desenvolvido dos principais assuntos da disciplina, com o objetivo de trazer um overview geral de tudo que aprendi, mesmo que de maneira objetiva.</p>
+        </div>
+    </section>
+
+    <!-- CONTEÚDOS APRENDIDOS -->
+    <section id="conteudos">
+        <h2>Conteúdos Aprendidos</h2>
+        <p>Ao longo da disciplina, aprendi vários conceitos fundamentais:</p>
+
+        <h3>Principais Tópicos</h3>
+        <ul>
+            <li>Estrutura básica do HTML</li>
+            <li>Tags semânticas (header, nav, main, section, article, footer)</li>
+            <li>Listas ordenadas e não ordenadas</li>
+            <li>Inserção de imagens e links</li>
+            <li>Tabelas</li>
+            <li>Formulários</li>
+            <li>Multimídia (vídeo e áudio)</li>
+        </ul>
+
+        <h3>Tabela de Conhecimentos</h3>
+        <table>
+            <tr>
+                <th>Tópico</th>
+                <th>Nível de Conhecimento</th>
+            </tr>
+            <tr>
+                <td>HTML Semântico</td>
+                <td>Avançado</td>
+            </tr>
+            <tr>
+                <td>Listas e Tabelas</td>
+                <td>Intermediário</td>
+            </tr>
+            <tr>
+                <td>Formulários</td>
+                <td>Intermediário</td>
+            </tr>
+            <tr>
+                <td>Multimídia</td>
+                <td>Básico</td>
+            </tr>
+        </table>
+
+        <h3>Vídeo Exemplo</h3>
+        
+
+        <h3>Áudio Exemplo</h3>
+        
+    </section>
+
+    <!-- PORTFÓLIO -->
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Aqui estão alguns projetos que desenvolvi:</p>
+
+        <ol>
+            <li><strong>Projeto 1:</strong> Página inicial simples usando HTML.</li>
+            <li><strong>Projeto 2:</strong> Estrutura semântica completa de um site.</li>
+            <li><strong>Projeto 3:</strong> Formulários com validação básica.</li>
+        </ol>
+
+        <p>Acesse mais conteúdos:</p>
+        <a href="https://www.w3schools.com" target="_blank">Estude HTML na W3Schools</a><br>
+        <a href="mailto:email@exemplo.com">Me envie um e-mail</a>
+    </section>
+
+    <!-- FORMULÁRIO DE CONTATO -->
+    <section id="contato">
+        <h2>Formulário de Contato</h2>
+        <form>
+            <label>Seu Nome:</label><br>
+            <input type="text" name="nome" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label>Mensagem:</label><br>
+            <textarea name="mensagem" rows="5"></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>Site desenvolvido como avaliação da disciplina de Tecnologias Web.</p>
+</footer>
+
+</body>
+</html>
